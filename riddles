@@ -1,0 +1,19 @@
+$.ajax('http://jsonplaceholder.typicode.com/riddles', {
+  method: 'POST',
+  data: {
+  [
+  {
+      "name": "morpheus",
+      "job": "leader"
+  },
+  {
+      "name": "morpheus",
+      "job": "leader"
+  }
+]
+  }
+}).then(function(data) {
+  console.log(data);
+});
+
+
